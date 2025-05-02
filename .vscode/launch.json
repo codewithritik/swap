@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Node.js App",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/backend/server.js", // Update with your entry point if different
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "console": "integratedTerminal"
+    }
+  ]
+}
